@@ -1,0 +1,14 @@
+{
+  "name": "http-process-closer",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Close a process via http",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:orangemug/http-process-closer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orangemug/http-process-closer/issues"
+  }
+}
