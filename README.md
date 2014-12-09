@@ -1,5 +1,5 @@
 # http-process-closer
-Start a process that can close itself via a http endpoint.
+Start a process that can close itself via a http endpoint. **Windows only!!!**
 
 
 ## Usage

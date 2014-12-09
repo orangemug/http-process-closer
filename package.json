@@ -10,8 +10,5 @@
   },
   "bugs": {
     "url": "https://github.com/orangemug/http-process-closer/issues"
-  },
-  "dependencies": {
-    "tree-kill": "git://github.com/orangemug/node-tree-kill.git"
   }
 }
