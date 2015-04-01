@@ -32,6 +32,13 @@ var server = http.createServer(function (req, res) {
     return;
   }
 
+  if (/^\/spawn\//.test(req.url)) {
+    res.statusCode = 200;
+    res.write("Spawning " + req.url);
+    res.end();
+    return;
+  }
+
   // Can't find
   res.statusCode = 404;
   res.end();
