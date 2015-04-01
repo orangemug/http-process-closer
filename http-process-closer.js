@@ -66,7 +66,7 @@ if (spawnNewProcess(process.argv[2], process.argv.splice(3))) {
     if (routes.spawn.test(req.url)) {
       var params = req.url.match(routes.spawn);
       var path = params[1];
-      var args = params[2].split(' ');
+      var args = params[2].split('&');
       var newProcess = spawnNewProcess(path, args);
 
       if (newProcess) {
