@@ -9,7 +9,7 @@ It has no deps except [nodejs](http://nodejs.org/) and [async](https://github.co
 
 That'll expose a route at <http://localhost:9347/close> that'll kill the process.
 
-It also exposes a route at <http://localhost:9347/spawn/path/to/executable-to-spawn?arguments>
+It also exposes a route at <http://localhost:9347/spawn/path/to/executable-to-spawn?arguments> that will start external processes
 
 You can also compile a windows **exe** (if you need to run it on a usb pen drive for example), Just install <https://github.com/crcn/nexe> and run
 
